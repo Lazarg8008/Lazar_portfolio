@@ -1,0 +1,158 @@
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 40px;
+  background-color: #0a192f;
+  color: #ccd6f6;
+  min-height: 70vh;
+
+
+ 
+  
+
+}
+
+.home-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.home-name {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #64ffda;
+}
+
+.typed-text {
+  font-size: 1.3rem;
+  color: #8892b0;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.home-intro {
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #64ffda;
+  color: #0a192f;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #52e0c4;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid #64ffda;
+  color: #64ffda;
+}
+
+.btn-outline:hover {
+  background-color: #64ffda;
+  color: #0a192f;
+}
+
+.home-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 280px;
+}
+
+.profile-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  animation: float 3s ease-in-out infinite;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+/* responsive */
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .home-left, .home-right {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-left {
+    margin-bottom: 30px;
+  }
+
+  .home-name {
+    font-size: 2.2rem;
+  }
+
+  .home-intro {
+    font-size: 1.2rem;
+    margin: 0 auto 30px;
+  }
+
+  .home-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn, .btn-outline {
+    width: 80%;
+    padding: 12px;
+    text-align: center;
+  }
+
+  .profile-img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-name {
+    font-size: 1.8rem;
+  }
+
+  .home-intro {
+    font-size: 1rem;
+  }
+
+  .btn, .btn-outline {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .profile-img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
