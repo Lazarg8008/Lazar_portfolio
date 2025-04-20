@@ -1,12 +1,11 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 About This Project
+🎨 This is my React Portfolio Website – a clean, modern space to showcase who I am and what I build.
+💻 Built with React.js, featuring smooth navigation and modular components.
+📱 Fully responsive design – looks great on mobile, tablet, and desktop.
+🧩 Includes sections: Home, Projects, Skills, and Contact.
+🎨 Styled using pure CSS with custom animations and layouts.
+🔗 Projects include live demos and GitHub links for easy access.
+📬 Contact form powered by EmailJS for instant messages.
+🚀 Deployed on Vercel for lightning-fast performance.
+🌟 Designed to reflect my skills, creativity, and love for web development.
+🔗 Live Project👉https://Lazarg8008.github.io/Lazar_portfolio/
